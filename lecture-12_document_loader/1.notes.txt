@@ -1,0 +1,20 @@
+rag -> yaha means maan u ask about ur company ab the model dont know about ur company so problem so rag ek doc e apki jankari uthata 
+and answer deta apko acc. to it
+
+Rag made of 4 imp compo se aap bana sakte ho rag 
+1. doc loader
+2. text splitter
+3. vector database
+4. retrieval 
+
+yaha pe hum doc loader padenge 4 ain padhenge bahut sare hote hai doc loader vaise 
+hum kahi se bhi data fetch pdf se database se ya cloud se 
+vo same format m aana chaiye 
+
+this format
+document(page_content="the actual text content",
+metadata={}
+)
+ 
+type 
+1.textloader -> .txt se late data 
