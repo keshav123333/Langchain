@@ -39,9 +39,14 @@ def wordcount(text):
     
     return len(text.split())
 
-par=par=RunnableParallel(
+par=RunnableParallel(
     {
         "joke":RunnablePassthrough(),
         "joke_len":RunnableLambda(wordcount)
     }
 )
+
+chain=joke_gen | par 
+print(chain.invoke({"topic":"america"}))
+
+# output-> {'joke': "Why did America go to therapy? \n\nBecause it had a lot of 'state' anxiety.", 'joke_len': 14}
