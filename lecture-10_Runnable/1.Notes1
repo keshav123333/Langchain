@@ -1,0 +1,18 @@
+LANGCAHIN NE DEKHA EK APP KE LIYE LLM HI ZARURI NI 
+EXAMPLE_;
+PDF READER PDF LOAD -> PDF SPLIT-> EMBEDE-> VECTOR-> LLM-> PARSE
+YE URA FLOW SO LANGCHAIN DEV NE OBESERVE AND AISI FACILTY DENI CHAHI
+
+
+IMP -:
+isme lecture 10 mein suru mein isne pdf rader type kuch dikhaa tha
+
+aise unhone itne sare parameter bana diye ki confuse ho gaye
+kisko kab use karna hai
+
+
+so runnable banya 
+so runnable ko connect karke kitna bhi complex runnable bana sakte and like un sare runnable ka same function toh seamlessley connect bhi 
+
+ISKA IPYNB WALI FILE DEKH BADIYA SA TUJHE EK LIKE INPUT MILEGA 
+
