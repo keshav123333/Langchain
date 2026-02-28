@@ -1,0 +1,14 @@
+ab ek bada paf jisme millions m word toh ye ek sath model m ni ja sakta as ye problem create so isko solve ke liye humne 
+text splitter ka use karna hota hai to text splitter kya karta hai ki wo bade paf ko chote chote tukdo m tod deta hai jisse ki wo model m asani se fit ho
+ jaye aur uske baad hum un chote chote tukdo ko model m feed kar sakte hai to text splitter ke kai tarike hote hai jaise ki sentence splitter, paragraph splitter, 
+ ya phir character splitter to ye depend karta hai ki aapko kis tarah se apne data ko 
+split karna hai to text splitter ka use karke hum apne data ko efficiently process kar sakte hai aur apne model ko better results de sakte hai
+
+
+
+and iska ye bhi benfit 
+1. maan le ek bada page ka emb gen toh har line m alag info page ke liye ek vector utna capture ni so page ko hum devide and ab un chote 
+tukdo m se har ek tukda ka apna vector banega toh usse hume better results milenge
+
+2. semantic search m bhi help as ek pure page ki emb se if query comare toh sahi answer ni vahi pages ke para ya lines ke sath toh more specfic answer and accurate
+3. summarization m bhi help
