@@ -1,0 +1,19 @@
+so maan ek movie ki same dusri movie nikalni hai so ek rasta ki keyword matching like actor ya genre ko match 
+2. option plot ki vector emb nikal and jab ek nayi movie so uski vector emb ki cosin similarity with other and find kaunsa best 
+but nayi problem aayegi ki vector crore movie ka nikalna store then uss crore vector se humare query movie ka vector cosin similarity niklna 
+heavy task so yaha pe vector stores help
+
+benifits-:
+storag-: on ram-: if chote app toh apke files vector ko ram m save voltile
+if bada so ssd harddisk m save 
+
+2. similarity search feature 
+
+3. indexing : ye hi main jisse cosine nikalna assan 
+maan 1crore movie ki emb save ab hum un movie ki emb ko 100 cluster m divide such ki jo same movies vo same cluster and har cluster ka centroid find
+ab nayi movie vo in 100 centroid cluster ke sath nikalenge then jab jo cluster most pass uske andar osin siilarity so ab 1 lakh vector ke sath hi karna padega instead of 1crore 
+
+
+
+vector store-: vector store ek aise database hai jisme vector data ko efficiently store aur retrieve kiya jata hai. Ye specially design kiya gaya hai ye small scale application ke liye hota hai  ye sirf store and deta hai ya query se cosine ke liye
+vector database bas isme vector store toh hota but concurrency transaction feature bhi hote hai jo isko help karta hai for large scale app
