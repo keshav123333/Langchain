@@ -1,1 +1,1 @@
-retrievers - retrievers are used to retrieve relevant documents from a large collection of documents based on a query is
+retrievers - retrievers are used to retrieve relevant documents from a large collection of documents based on a query isgit push
