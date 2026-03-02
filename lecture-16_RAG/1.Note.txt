@@ -1,0 +1,30 @@
+model next word pred so general uestion m sawal ka jawab ni even hallucination bhi ho sakti like glat answer bata de and uske pas ek sepcfic oragnisation ya topic pe answer ho zaruri ni
+
+example you want your model to learn ur organisation info as aap chatbot for u 
+
+
+option 1: finetunning -: hum karte ki next word predictor model ab qustion answer bhi de paye and second thing ye ki maan 
+probelm -: har baar fntune karne m power and time like maan maine apne org. ke liye train so jaise jaise info add mujhe vapic train our model 
+
+
+
+
+2: rag: jab model train so uske pas kal ki ya tumhare organisation ye specfct opic ki info ho zaruri ni so rag ki help e problem solve 
+
+but how it works : jase ek example deta hu main model ko dunga ye:
+
+"elone musk is bad -: negative
+"elone musk is good -: positive
+"modi is a great leader -: positive
+"yogi is a bad leader -: negative
+
+"this food is sogy-: 
+
+so ab model khud sikhega okay so upar kya neg ya pos uske hisab se niche wala sentence ka sentiment kya hoga ye context learning 
+so bahut ye exaple dekh ke answer de sata khud sikh sakta and few shot learning kehte hai isko gpt3 ke baad ke model ke andar ye capablity apne aap aan chalu ho gi thi
+
+so ab youtube video dekhte hue bache ko confuse in grad descent so hum chatbot ke pas humare video ke transcript of part gradient descent padhya and usko 
+question ke sath so acha answer dega humara model
+
+iska main useg aise hota ki maan ek query aayi gradient descent ke related ab mere pas video transcript m query k basis pe transcript se portion launga jo iss query se related and
+then usse user query ke sath bhej dunga llm mein
