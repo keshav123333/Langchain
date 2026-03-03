@@ -1,0 +1,18 @@
+tools are just function or something jisse llm task kar paye 
+as llm cant reliable at maths and live data fetching 
+like weather api use karte jisse live weatcher la paaye hum 
+
+
+tools used toh perform action in real world 
+
+
+
+sun main cheez bata raha hu tu in tools ko explore kar apne use case ke hisab se :
+
+https://docs.langchain.com/oss/python/integrations/tools
+
+ye built in tools hai hum khud ke  tools bhi custom tool bana sakte hai
+
+
+custom tool-:
+isme khud ka api hai toh ya khud ka logic ho
