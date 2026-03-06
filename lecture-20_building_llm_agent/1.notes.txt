@@ -1,1 +1,3 @@
-agent excuter file ko dekhta hai and usse 
+agent  eg react agent aur bhi tarah ke hote design pattern for this so ye sochne ka kaam karte hai like maine puch what is the weather today so ye sochega kya mere pas weather ke liye kuch hai if yes so weather ki api hit kar and usse answer leke aa and lane ka kaam agent excuter karega the excuter isko agent ko dega fir ye isse ache se frame karke de dega 
+
+agent excuter -: isse hum select ye jo kaam ussse excute 
