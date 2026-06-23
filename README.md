@@ -1,6 +1,14 @@
 # Langchain
 
 
+
+from langchain_openai import ChatOpenAI
+
+llm = ChatOpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key="YOUR_OPENROUTER_KEY",
+    model="openai/gpt-oss-120b"
+)
 for output parser 
 
 
